@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Clipboard landing page</title>
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class=" header__contenido contenedor">
+      <img class="header__logo" src="img/logo.svg" alt="imagen-logo">
+
+      <div class="header__info">
+        <h1 class="header__heading">A history of everything you copy</h1>
+        <p class="header__texto">
+          Clipboard allows you to track and organize everything you 
+          copy. Instantly access your clipboard on all your devices.
+        </p>
+      </div>
+
+      <div class="enlaces">
+        <a href="#" class="enlace--verde">Download for iOS</a>
+        <a href="#" class="enlace--azul">Download for Mac</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="snippets seccion">
+    <div class="snippets__info contenedor">
+      <h2 class="snippets__heading">Keep track of your snippets</h2>
+      <p class="snippets__texto">
+        Clipboard instantly stores any item you copy in the cloud, 
+        meaning you can access your snippets immediately on all your 
+        devices. Our Mac and iOS apps will help you organize everything.
+      </p>
+    </div>
+
+    <div class="grid">
+      <div class="grid__imagen">
+        <picture>
+          <source
+            srcset="img/image-computer.avif" 
+            type="image/avif">
+          <source
+            srcset="img/image-computer.webp" 
+            type="image/webp">
+          <source 
+            srcset="img/image-computer.png" 
+            type="image/png">
+          <img class="grid__imagen-monitor" loading="lazy" decoding="async" src="img/image-computer.png" lazyalt="imagen">
+        </picture>
+      </div>
+
+      <div class="grid__info">
+        <div class="punto">
+          <h3 class="punto__heading">Quick Search</h3>
+          <p class="punto__texto">
+            Easily search your snippets by content, category, web address, application, and more.
+          </p>
+        </div>
+
+        <div class="punto">
+          <h3 class="punto__heading">iCloud Sync</h3>
+          <p class="punto__texto">
+            Instantly saves and syncs snippets across all your devices.
+          </p>
+        </div>
+
+        <div class="punto">
+          <h3 class="punto__heading">Complete History</h3>
+          <p class="punto__texto">
+            Retrieve any snippets from the first moment you started using the app.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="access contenedor seccion text-center">
+    <h2 class="access__heading">Access Clipboard anywhere</h2>
+    <p class="access__texto">
+      Whether you’re on the go, or at your computer, you can access all your Clipboard 
+      snippets in a few simple clicks.
+    </p>
+    <picture>
+      <source
+        srcset="img/image-devices.avif" 
+        type="image/avif">
+      <source
+        srcset="img/image-devices.webp" 
+        type="image/webp">
+      <source 
+        srcset="img/image-devices.jpg" 
+        type="image/png">
+      <img class="centrado" loading="lazy" decoding="async" src="img/image-devices.png" lazyalt="imagen">
+    </picture>
+  </section>
+
+  <section class="workflow seccion contenedor text-center">
+    <h2 class="workflow__heading">Supercharge your workflow</h2>
+    <p class="workflow__texto">
+      We’ve got the tools to boost your productivity.
+    </p>
+
+    <div class="workflow__grid">
+      <div class="info">
+        <div class="info__imagen">
+          <img src="img/icon-blacklist.svg" alt="icono-blacklist" class="centrado">
+        </div>
+        
+        <h3 class="info__heading">Create blacklists</h3>
+        <p class="info__texto">
+          Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
+        </p>
+      </div>
+
+      <div class="info">
+        <div class="info__imagen">
+          <img src="img/icon-text.svg" alt="icono-text" class="centrado">
+        </div>
+    
+        <h3 class="info__heading">Plain text snippets</h3>
+        <p class="info__texto">
+          Remove unwanted formatting from copied text for a consistent look.
+        </p>
+      </div>
+
+      <div class="info">
+        <div class="info__imagen">
+          <img src="img/icon-preview.svg" alt="icono-preview" class="centrado">
+        </div>
+
+        <h3 class="info__heading">Sneak preview</h3>
+        <p class="info__texto">
+          Quick preview of all snippets on your Clipboard for easy access.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="logos contenedor seccion">
+    <div class="logos__grid">
+      <div class="logos__imagen">
+        <picture>
+          <source 
+            srcset="img/logo-google.avif" 
+            type="image/avif">
+          <source
+            srcset="img/logo-google.webp" 
+            type="image/webp">
+          <source 
+            srcset="img/logo-google.png" 
+            type="image/png">
+          <img loading="lazy" decoding="async"src="img/logo-google.png" lazyalt="imagen" class="centrado">
+        </picture>
+      </div>
+
+      <div class="logos__imagen">
+        <picture>
+          <source 
+            srcset="img/logo-ibm.avif" 
+            type="image/avif">
+          <source
+            srcset="img/logo-ibm.webp" 
+            type="image/webp">
+          <source 
+            srcset="img/logo-ibm.png" 
+            type="image/png">
+          <img loading="lazy" decoding="async"src="img/logo-ibm.png" lazyalt="imagen" class="centrado">
+        </picture>
+      </div>
+
+      <div class="logos__imagen">
+        <picture>
+          <source 
+            srcset="img/logo-microsoft.avif" 
+            type="image/avif">
+          <source
+            srcset="img/logo-microsoft.webp" 
+            type="image/webp">
+          <source 
+            srcset="img/logo-microsoft.png" 
+            type="image/png">
+          <img loading="lazy" decoding="async"src="img/logo-microsoft.png" lazyalt="imagen" class="centrado">
+        </picture>
+      </div>
+
+      <div class="logos__imagen">
+        <picture>
+          <source 
+            srcset="img/logo-hp.avif" 
+            type="image/avif">
+          <source
+            srcset="img/logo-hp.webp" 
+            type="image/webp">
+          <source 
+            srcset="img/logo-hp.png" 
+            type="image/png">
+          <img loading="lazy" decoding="async"src="img/logo-hp.png" lazyalt="imagen" class="centrado">
+        </picture>
+      </div>
+
+      <div class="logos__imagen">
+        <picture>
+          <source 
+            srcset="img/logo-vector-graphics.avif" 
+            type="image/avif">
+          <source
+            srcset="img/logo-vector-graphics.webp" 
+            type="image/webp">
+          <source 
+            srcset="img/logo-vector-graphics.png" 
+            type="image/png">
+          <img loading="lazy" decoding="async"src="img/logo-vector-graphics.png" lazyalt="imagen" class="centrado">
+        </picture>
+      </div>
+    </div>
+  </section>
+
+  <section class="clipboard seccion contenedor">
+    <div class="clipboard__info">
+      <h2 class="header__heading text-center">Clipboard for iOS and Mac OS</h2>
+      <p class="clipboard__texto text-center">
+        Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
+        and you’re ready to start adding to your clipboard.
+      </p>
+    </div>
+
+    <div class="enlaces">
+      <a href="#" class="enlace--verde">Download for iOS</a>
+      <a href="#" class="enlace--azul">Download for Mac</a>
+    </div>
+  </section>
+  
+  <footer class="footer">
+    <div class="footer__contenido contenedor">
+      <img class="footer__logo" src="img/logo.svg" alt="imagen-logo">
+      
+      <nav class="navegacion">
+        <div class="navegacion__links">
+          <a class="navegacion__link" href="#">FAQs</a>
+          <a class="navegacion__link" href="#">Contact Us</a>
+        </div>
+        
+        <div class="navegacion__links">
+          <a class="navegacion__link" href="#">Privacy Policy</a>
+          <a class="navegacion__link" href="#">Press Kit</a>
+        </div>
+
+        <div class="navegacion__links">
+          <a class="navegacion__link" href="#">Install Guide</a>
+        </div>
+      </nav>
+
+      <div class="redes">
+        <img class="redes__imagen" src="img/icon-facebook.svg" alt="icono-facebook">
+      
+        <img class="redes__imagen" src="img/icon-twitter.svg" alt="icono-twitter">
+      
+        <img class="redes__imagen" src="img/icon-instagram.svg" alt="icono-instagram">
+      </div>
+    </div>
+
+    <p class="attribution contenedor text-center">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Jorge Carranza</a>.
+    </p>
+  </footer>
+
+  <script src="js/imgsupport.js"></script>
+</body>
+</html>
